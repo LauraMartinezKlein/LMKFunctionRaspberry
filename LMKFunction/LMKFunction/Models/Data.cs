@@ -9,7 +9,7 @@
         [Required]
         public string Estudiante { get; set; }
         [Required]
-        public int Temperatura { get; set; }
+        public string Temperatura { get; set; }
         [DataType(DataType.DateTime)]
         [Required]
         public DateTime EventDate { get; set; }
